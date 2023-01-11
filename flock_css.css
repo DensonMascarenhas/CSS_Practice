@@ -1,0 +1,219 @@
+body{
+  background-color:rgb(244, 247, 247);
+}
+/* .headings{
+margin-top: 5px;
+text-align:end;
+position: relative;
+
+}
+
+.not_using_flock
+{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 15px;
+  text-shadow: none;
+  color: rgb(105, 99, 99);
+  font-size: 15px;
+  align-content: center;
+
+}
+
+.getdemo{
+  width: 80px;
+  position: relative;
+  background-color: rgb(255, 188, 63);
+  height: 41px;
+  margin-top: 25px;
+  width: 110px;
+  border-width: 0ch;
+  color:azure;
+  margin-right:30px ;
+
+}
+.getdemo:hover
+{
+background-color:  rgb(248, 191, 2);  
+border-width: 2px;
+border-color:  rgb(230, 170, 30);
+height: 43px;
+width:112px ;
+}
+.logo{
+  float: left;
+  padding: 21px;
+  height: 41px;
+ 
+}
+
+.flex-container
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  align-items: center;
+  text-align: left;
+
+}
+h1{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+ */
+
+ .navbar{
+  margin: 0%;
+  padding: 0%;
+ }
+
+ .logo{
+  float: left;
+  height: 41px;
+  padding: 21px;
+ }
+ .getdemo
+ {
+  float:right;
+  margin:1%;
+ }
+ .demobtn{
+
+  position: relative;
+  background-color: rgb(255, 188, 63);
+  height: 41px;
+  width: 110px;
+  border-width: 0ch;
+  color:azure;
+  margin-right:30px ;
+
+ }
+ .demobtn:hover{
+  background-color:  rgb(248, 191, 2);  
+  border-width: 2px;
+  border-color:  rgb(230, 170, 30);
+  border-style: double;
+
+ }
+
+.not_using_flock
+{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  float:right;
+  margin-right: 10px;
+  margin-top: 25px;
+  position: relative;
+
+}
+.container{
+  display:flex;
+  justify-content: center;
+
+}
+.form-block{
+  margin-top: 5%;
+  align-content:center;
+}
+.form-control{
+box-sizing:content-box;
+
+}
+h1{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.form-input{
+  text-align: left;
+  padding-bottom: 10px;
+}
+.txtbox{
+ width:150%;
+ padding: 15px;
+ margin-top: 10px;
+ font-size:medium ;
+  border-width: 0px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.txtbox:focus{
+border-width:1px ;
+
+}
+.ln{
+  color:rgb(152, 150, 150);
+  font-size: small;
+  font-family:Arial, Helvetica, sans-serif
+}
+.ln:hover{
+  color: rgb(52, 121, 161);
+}
+.btn{
+background-color:rgb(8, 151, 8);
+border-width: 0px;
+padding: 15px;
+font-size: large  ;
+width:159%;
+color: aliceblue;
+margin-top: 20px;
+}
+.btn:hover{
+  background-color:rgb(32, 181, 32);
+}
+hr{
+  width:159%;
+  margin-top: 30px;
+}
+.side-by-side { 
+  display: flex; 
+  padding-left: 33%;
+  justify-content: center;
+  min-width: max-content;
+} 
+.col1{
+  float: right;
+  padding-right: 10px;
+}
+.col2{
+  float: left;
+  padding-left: 10px;
+}
+.sign-btn{
+  background-color: white;
+  padding: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sign1{
+color: rgb(60, 106, 221);
+border-color:  rgb(60, 106, 221);
+}
+
+.sign2{
+  color:rgb(28, 27, 27);
+  border-color: rgb(28, 27, 27);
+}
+.sign1:hover{
+background-color: rgb(60, 106, 221);
+color: white;
+border-color:  rgb(60, 106, 221);
+}
+.sign2:hover{
+  background-color:rgb(28, 27, 27);
+  color: white;
+  border-color: rgb(28, 27, 27);
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-left: 20px;
+  color:rgb(152, 150, 150);
+  margin-bottom: 20px;
+}
+.footer-link{
+  float:right;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  bottom: 0;
+  right:0;
+  position: fixed;
+}
