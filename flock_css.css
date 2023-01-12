@@ -217,3 +217,14 @@ border-color:  rgb(60, 106, 221);
   right:0;
   position: fixed;
 }
+
+@media screen and (min-width: 800px) {
+  .side-by-side{
+    display: none;
+  }
+}
+@media screen and (min-width: 990px) {
+  .side-by-side{
+    display:block;
+  }
+}
